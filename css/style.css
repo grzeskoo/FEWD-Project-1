@@ -36,7 +36,6 @@ body {
 }
 
 header h1 {
-
     text-transform: uppercase;
     text-shadow: 2px 2px 4px #000000
 }
@@ -358,68 +357,4 @@ main {
         border-top-right-radius: 5px;
         height: max-content;
     }
-}
-
-
-/* Color Theme Swatches in Hex */
-.Fine-beach-sand-in-the-summer-sun-1-hex {
-    color: #262015;
-}
-
-.Fine-beach-sand-in-the-summer-sun-2-hex {
-    color: #D9984A;
-}
-
-.Fine-beach-sand-in-the-summer-sun-3-hex {
-    color: #D9B88F;
-}
-
-.Fine-beach-sand-in-the-summer-sun-4-hex {
-    color: #F2D5BB;
-}
-
-.Fine-beach-sand-in-the-summer-sun-5-hex {
-    color: #D9BDAD;
-}
-
-/* Color Theme Swatches in RGBA */
-.Fine-beach-sand-in-the-summer-sun-1-rgba {
-    color: rgba(38, 32, 21, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-2-rgba {
-    color: rgba(216, 152, 73, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-3-rgba {
-    color: rgba(216, 183, 143, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-4-rgba {
-    color: rgba(242, 212, 186, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-5-rgba {
-    color: rgba(216, 189, 173, 1);
-}
-
-/* Color Theme Swatches in HSLA */
-.Fine-beach-sand-in-the-summer-sun-1-hsla {
-    color: hsla(39, 28, 11, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-2-hsla {
-    color: hsla(33, 65, 56, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-3-hsla {
-    color: hsla(33, 49, 70, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-4-hsla {
-    color: hsla(28, 68, 84, 1);
-}
-
-.Fine-beach-sand-in-the-summer-sun-5-hsla {
-    color: hsla(22, 36, 76, 1);
 }
