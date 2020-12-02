@@ -1,0 +1,43 @@
+.left-top-pane {
+    flex: 1;
+    margin-right: 3px;
+    display: grid;
+}
+
+.left-pane-header {
+    padding-top: 5px;
+    padding-left: 3px;
+    text-transform: uppercase;
+    font-size: 1.1em;
+}
+
+.left-pane-content-top {
+    text-align: left;
+}
+
+.left-pane-content-top ul {
+    font-size: .9em;
+    border-bottom: 1px solid #D9984A;
+}
+
+.left-pane-content-top ul li {
+    vertical-align: middle;
+    text-align: left;
+    list-style-type: none;
+    line-height: 2.0em;
+    margin-left: -25px;
+}
+
+.left-pane-content-bottom {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.left-pane-content-bottom button {
+    background-image: none;
+}
+
+.left-pane-content-bottom img {
+    width: 100px;
+    height: 30px;
+}

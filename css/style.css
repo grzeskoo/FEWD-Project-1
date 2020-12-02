@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('style_left_pane.css');
+@import url('style_media.css');
 
 h1,
 h2,
@@ -28,6 +30,7 @@ body {
     flex-direction: column;
     border-radius: 10px;
     background-color: #D9B88F;
+
 }
 
 .container-header {
@@ -73,7 +76,8 @@ nav ul {
     font-style: italic;
 }
 
-main {
+
+.wrapper {
     display: grid;
     grid-template-columns: 1fr 6fr;
 }
@@ -82,48 +86,11 @@ main {
     margin: 2px;
 }
 
-.left-top-pane {
-    flex: 1;
-    margin-right: 3px;
-    display: grid;
-}
-
-.left-pane-header {
-    padding-top: 5px;
-    padding-left: 3px;
-    text-transform: uppercase;
-    font-size: 1.1em;
-}
-
-.left-pane-content-top {
-    text-align: left;
-}
-
-.left-pane-content-top ul {
-    font-size: .9em;
-    border-bottom: 1px solid #D9984A;
-}
-
-.left-pane-content-top ul li {
-    vertical-align: middle;
-    text-align: left;
-    list-style-type: none;
-    line-height: 2.0em;
-    margin-left: -25px;
-}
-
-.left-pane-content-bottom {
-    text-align: center;
-    margin-top: 5px;
-}
-
-.left-pane-content-bottom button {
-    background-image: none;
-}
-
-.left-pane-content-bottom img {
-    width: 100px;
-    height: 30px;
+.main-content-boxes {
+    display: flex;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
 }
 
 .main-box img {
@@ -198,15 +165,25 @@ main {
     background-color: #019ad2;
 }
 
-.about-page-image {
+.main-content-about {
+    padding-left: 50px;
+    margin-left: 25px;
+
+}
+
+.about-page-image figcaption {
     display: flex;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 #picture1 {
+    grid-area: image1;
     max-width: 300px;
 }
 
 #picture2 {
+    grid-area: image2;
     width: 300px;
 }
 
@@ -275,6 +252,7 @@ main {
 }
 
 .main-content-contact {
+    justify-content: center;
     display: grid;
     grid-auto-columns: 600px;
     row-gap: 5px;
@@ -289,71 +267,17 @@ main {
     margin-top: 10px;
 }
 
-@media (max-width: 800px) {
+.caption-image {
+    font-size: small;
+}
 
-    .main-content-contact {
-        display: grid;
-        grid-auto-columns: 1fr;
-    }
+.social_about {
+    display: flex;
+    justify-content: center;
+    column-gap: 5px;
+}
 
-    .content {
-        flex: 3;
-        padding-top: 10px;
-        display: grid;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
-
-    .main-content-boxes {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        justify-items: center;
-    }
-
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-areas:
-            "top"
-            "bottom";
-    }
-
-    .main-content {
-        grid-area: top;
-    }
-
-    .left-pane {
-        grid-area: bottom;
-    }
-
-    .left-pane-header {
-        text-align: center;
-    }
-
-    .left-pane-content-top {
-        text-align: center;
-    }
-
-    .left-pane-content-top ul li {
-        text-align: center;
-        list-style-type: none;
-        margin-left: -40px;
-        margin-bottom: 5px;
-    }
-
-    .left-pane-content-bottom ul li {
-        text-align: center;
-        padding-left: 25px;
-    }
-
-    .main-box {
-        border-radius: 0.9em;
-        border: #D9984A solid;
-        margin: 3px;
-        padding: 10px;
-        border-bottom-right-radius: 5px;
-        border-top-right-radius: 5px;
-        height: max-content;
-    }
+.social_about img {
+    width: 100px;
+    height: 30px;
 }
