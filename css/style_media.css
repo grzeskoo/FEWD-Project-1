@@ -1,4 +1,10 @@
 @media (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        border-radius: 10px;
+        background-color: #D9B88F;
+    }
+
     .wrapper {
         display: flex;
         flex-direction: column;
@@ -30,6 +36,17 @@
 
     .main-box-text-block {
         visibility: hidden;
+    }
+
+    .main-box {
+        border-radius: 0.9em;
+        border: #D9984A solid;
+        margin: 3px;
+        padding: 10px;
+        border-radius: 5px;
+        height: max-content;
+        display: grid;
+        position: relative;
     }
 
     .main-content-header {
