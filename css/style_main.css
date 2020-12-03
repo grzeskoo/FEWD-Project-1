@@ -49,19 +49,15 @@
     background-color: #F2D5BB;
 }
 
-.main-content-about-me {
+.main-content-about-me,
+.main-content-about-page,
+.main-content-contact {
     padding-left: 0px;
     margin-left: 5px;
     text-align: center;
     font-size: 1.2em;
 }
 
-.main-content-about-page {
-    padding-left: 0px;
-    margin-left: 5px;
-    font-size: 1.2em;
-    text-align: center;
-}
 
 .caption-image {
     justify-content: center;
@@ -86,17 +82,19 @@
     width: 80px;
 }
 
+.main-content-contact input,
+.main-content-contact select,
+.main-content-contact textarea {
+    width: 100%;
+}
+
+/* 
 .main-content-contact-label {
     font-style: italic;
 }
 
-.main-content-contact {
-    justify-content: center;
-    display: grid;
-    grid-auto-columns: 600px;
-    row-gap: 5px;
-}
+
 
 .main-content-header {
     text-transform: uppercase;
-}
+} */
